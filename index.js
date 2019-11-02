@@ -140,4 +140,4 @@ bot.on("guildMemberRemove", (message, usef) => {
   reportchannel.send(embed);
 });
 
-bot.login(token);
+bot.login(process.env.token);
